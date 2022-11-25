@@ -26,7 +26,7 @@ armzDiscototal = armzDisco.total / 1024 / 1024 / 1024
 armzDiscoDispobivel = armzDiscototal - armzDiscoUsado
 
 
-conexao = criar_conexao("localhost","root","67019807Gg", "dados_de_maquinateste")
+conexao = criar_conexao("localhost","root","", "dados_de_maquinateste")
 
 def transformarEmCsv() :
     cursor = conexao.cursor()
